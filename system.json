@@ -1,0 +1,23 @@
+{
+    "id": "darkheresy",
+    "title": "Dark Heresy 1st Ed",
+    "description": "Unofficial implementation of Dark Heresy 1st ed from Fantasy Flight Games",
+    "version": "1.0.0",
+    "compatibility": {
+        "minimum": "12",
+        "verified": "12"
+      },
+    "authors": [{
+      "name": "Chris Donnelly"
+    }],
+    "esmodules": ["darkheresy.mjs"],
+    "documentTypes": {
+        "Actor": {
+            "acolyte": {}
+        }
+    },
+    "initiative": "1d10",
+    "url": "https://github.com/chrisdonnelly/dark-heresy-1st-ed-foundry-vtt.git",
+    "manifest": "https://github.com/chrisdonnelly/dark-heresy-1st-ed-foundry-vtt.git/system.json",
+    "download": "https://github.com/chrisdonnelly/dark-heresy-1st-ed-foundry-vtt/archive/refs/heads/main.zip"
+}
